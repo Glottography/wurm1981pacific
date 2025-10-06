@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="Comment">Created with GIMP</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">200.49099937005</MDI>
+      <MDI key="STATISTICS_MINIMUM">36</MDI>
+      <MDI key="STATISTICS_STDDEV">36.41272687733</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">249</MDI>
+      <MDI key="STATISTICS_MEAN">197.54107484579</MDI>
+      <MDI key="STATISTICS_MINIMUM">29</MDI>
+      <MDI key="STATISTICS_STDDEV">33.120144075541</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">134.78188404074</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">76.112630009361</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

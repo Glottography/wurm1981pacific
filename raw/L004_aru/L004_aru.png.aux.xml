@@ -1,0 +1,38 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="Comment">Created with GIMP</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">199.99947835159</MDI>
+      <MDI key="STATISTICS_MINIMUM">39</MDI>
+      <MDI key="STATISTICS_STDDEV">28.287724075043</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">245</MDI>
+      <MDI key="STATISTICS_MEAN">211.05880400247</MDI>
+      <MDI key="STATISTICS_MINIMUM">48</MDI>
+      <MDI key="STATISTICS_STDDEV">27.465721712033</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">242</MDI>
+      <MDI key="STATISTICS_MEAN">185.59031630863</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">51.50241711034</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
