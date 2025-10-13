@@ -1,0 +1,211 @@
+id,name,glottocode,year,map_name_full
+1,AIBONDENI,aibo1237,traditional,L002_yapen
+2,AMBAI Ambai,nucl1466,traditional,L002_yapen
+3,AMBAI Randawaya,rand1239,traditional,L002_yapen
+4,AMBAI Sumberbaba,amba1265,traditional,L002_yapen
+5,ANSUS,ansu1237,traditional,L002_yapen
+6,APUMA,papu1251,traditional,L002_yapen
+7,BIAK,biak1248,traditional,L002_yapen
+8,BUSAMI Kamanap,busa1254,traditional,L002_yapen
+9,BUSAMI Kaonda,busa1254,traditional,L002_yapen
+10,BUSAMI Sasawa,busa1254,traditional,L002_yapen
+11,MARAU Marau,mara1397,traditional,L002_yapen
+12,MARAU Natabui,mara1397,traditional,L002_yapen
+13,MARAU Warabori,wara1296,traditional,L002_yapen
+14,MUNGGUI Morui,mung1269,traditional,L002_yapen
+15,MUNGGUI Munggui,mung1269,traditional,L002_yapen
+16,POM,pomm1237,traditional,L002_yapen
+17,S. Halmahera - N.W. New Guinea Group,sout3229,traditional,L002_yapen
+18,WABO Northeast,wabo1240,traditional,L002_yapen
+19,WABO Southeast,wabo1240,traditional,L002_yapen
+20,WABO West,wabo1240,traditional,L002_yapen
+21,WADAPI-LAUT,amba1265,traditional,L002_yapen
+22,WOI,woii1237,traditional,L002_yapen
+23,YAVA Ariepi,nucl1454,traditional,L002_yapen
+24,YAVA Central,cent2052,traditional,L002_yapen
+25,YAVA Konti-Unai,nucl1454,traditional,L002_yapen
+26,YAVA Mantembu,nucl1454,traditional,L002_yapen
+27,YAVA Mariadei,nucl1454,traditional,L002_yapen
+28,YAVA North,nort2825,traditional,L002_yapen
+29,YAVA Northeast,nucl1454,traditional,L002_yapen
+30,YAVA Sarawandori,nucl1454,traditional,L002_yapen
+31,YAVA Saweru,sawe1240,traditional,L002_yapen
+32,YAVA Tarau,nucl1454,traditional,L002_yapen
+33,YAVA Tatui,nucl1454,traditional,L002_yapen
+34,YAVA Wadapi-Darat,nucl1454,traditional,L002_yapen
+35,YAVA Yapanani-Borai,nucl1454,traditional,L002_yapen
+36,Austronesian,aust1307,traditional,L004_aru
+37,BARAKAI,bara1367,traditional,L004_aru
+38,DOBEL,dobe1238,traditional,L004_aru
+39,KOLA,lola1248,traditional,L004_aru
+40,UJIR,ujir1237,traditional,L004_aru
+41,WOKAM TARANGAN,aruu1241,traditional,L004_aru
+42,WOKAM TARANGAN Batulay,east2465,traditional,L004_aru
+43,WOKAM TARANGAN Mariri,east2465,traditional,L004_aru
+44,BANDA,band1355,traditional,L004_kai
+45,KEI-FORDATA Kei Besar,keib1237,traditional,L004_kai
+46,KEI-FORDATA Kei Kecil,keik1237,traditional,L004_kai
+47,TEOR-KUR Kur,kurr1245,traditional,L004_kai
+48,ANDRA-HUS,andr1248,traditional,L014_admiralty
+49,Austronesian,aust1307,traditional,L014_admiralty
+50,BALUAN-LOU-PAM,loup1244,traditional,L014_admiralty
+51,BOHUAI,bohu1238,traditional,L014_admiralty
+52,EMIRA-MUSSAU Emira,emir1237,traditional,L014_admiralty
+53,EMIRA-MUSSAU Mussau,muss1248,traditional,L014_admiralty
+54,ERE-LELE-GELE-KURUTI Ere,eree1241,traditional,L014_admiralty
+55,ERE-LELE-GELE-KURUTI Gele,kele1258,traditional,L014_admiralty
+56,ERE-LELE-GELE-KURUTI Koro,bowa1234,traditional,L014_admiralty
+57,ERE-LELE-GELE-KURUTI Kuruti,kurt1250,traditional,L014_admiralty
+58,ERE-LELE-GELE-KURUTI Lele,lele1270,traditional,L014_admiralty
+59,HERMIT,herm1237,traditional,L014_admiralty
+60,KANIET,kani1282,traditional,L014_admiralty
+61,LEIPON,leip1237,traditional,L014_admiralty
+62,LENKAU,lenk1247,traditional,L014_admiralty
+63,LEVEI-TULU Chechek,kheh1237,traditional,L014_admiralty
+64,LEVEI-TULU Lebej,leve1237,traditional,L014_admiralty
+65,LIKUM,liku1243,traditional,L014_admiralty
+66,LINDROU,nyin1250,traditional,L014_admiralty
+67,LONIU,loni1238,traditional,L014_admiralty
+68,MOKERANG,moke1240,traditional,L014_admiralty
+69,MONDROPOLON,mond1265,traditional,L014_admiralty
+70,NALI,nali1245,traditional,L014_admiralty
+71,NANE,,traditional,L014_admiralty
+72,NAUNA,naun1237,traditional,L014_admiralty
+73,OKRO,okro1237,traditional,L014_admiralty
+74,PAK-TONG,pakt1239,traditional,L014_admiralty
+75,PAPITALAI,papi1254,traditional,L014_admiralty
+76,PENCHAL,penc1239,traditional,L014_admiralty
+77,PONAM,pona1250,traditional,L014_admiralty
+78,SEIMAT,seim1238,traditional,L014_admiralty
+79,SISI/BIPI,bipi1237,traditional,L014_admiralty
+80,SORI/HARENGAN,sori1242,traditional,L014_admiralty
+81,TITAN,tita1241,traditional,L014_admiralty
+82,WUVULU-AUA,wuvu1239,traditional,L014_admiralty
+83,ANUTA,anut1237,traditional,L015_santa_cruz
+84,ASUMBOA,asum1237,traditional,L015_santa_cruz
+85,BUMA (TEANU),tean1237,traditional,L015_santa_cruz
+86,NANGGU,nang1262,traditional,L015_santa_cruz
+87,NEMBAO,nemb1239,traditional,L015_santa_cruz
+88,PILENI East,pile1238,traditional,L015_santa_cruz
+89,PILENI West,pile1238,traditional,L015_santa_cruz
+90,SANTA CRUZ,reef1242,traditional,L015_santa_cruz
+91,TANIMA (TETAU),tane1237,traditional,L015_santa_cruz
+92,TANIMBILI,tani1255,traditional,L015_santa_cruz
+93,TIKOPIA,tiko1237,traditional,L015_santa_cruz
+94,VANO,vano1237,traditional,L015_santa_cruz
+95,ÄIWO,ayiw1239,traditional,L015_santa_cruz
+96,EASTERN FIJIAN,east2446,traditional,L019b_fiji
+97,EASTERN FIJIAN Central Vanua Levu,cent2061,traditional,L019b_fiji
+98,EASTERN FIJIAN Gonedau,gone1237,traditional,L019b_fiji
+99,EASTERN FIJIAN Kadavu,kada1285,traditional,L019b_fiji
+100,EASTERN FIJIAN Lomaiviti,loma1261,traditional,L019b_fiji
+101,EASTERN FIJIAN Northeast Vanua Levu,nort2843,traditional,L019b_fiji
+102,EASTERN FIJIAN Northeast Viti Levu,nort2842,traditional,L019b_fiji
+103,EASTERN FIJIAN Southeast Viti Levu,sout2864,traditional,L019b_fiji
+104,EASTERN FIJIAN Southeastern Vanua Levu,sout2863,traditional,L019b_fiji
+105,EASTERN FIJIAN Western Vanua Levu,fiji1243,traditional,L019b_fiji
+106,WESTERN FIJIAN,west2518,traditional,L019b_fiji
+107,WESTERN FIJIAN Nadroga,nadr1235,traditional,L019b_fiji
+108,WESTERN FIJIAN Namosi-Naitasiri-Serua,namo1248,traditional,L019b_fiji
+109,WESTERN FIJIAN Nuclear Western,west2519,traditional,L019b_fiji
+110,BABUYAN,babu1242,traditional,L032_batan
+111,ILOKANO,ilok1237,traditional,L032_batan
+112,ITBAYATEN,ivat1242,traditional,L032_batan
+113,IVATAN,ibat1238,traditional,L032_batan
+114,A-PUCIKWAR,apuc1241,traditional,L037_andamans
+115,AKA-BEA,akab1249,traditional,L037_andamans
+116,AKA-BO,akab1248,traditional,L037_andamans
+117,AKA-CARI,akac1240,traditional,L037_andamans
+118,AKA-JERU,akaj1239,traditional,L037_andamans
+119,AKA-KEDE,akak1252,traditional,L037_andamans
+120,AKA-KOL,akak1253,traditional,L037_andamans
+121,AKA-KORA,akak1251,traditional,L037_andamans
+122,AKAR-BALE,akar1243,traditional,L037_andamans
+123,JARAWA,jara1245,traditional,L037_andamans
+124,OKO-JUWOI,okoj1239,traditional,L037_andamans
+125,SENTINEL,sent1241,traditional,L037_andamans
+126,NICOBARESE,nico1262,traditional,L037_nicobars
+127,NICOBARESE Bompoka,bomp1241,traditional,L037_nicobars
+128,NICOBARESE Car,carn1240,traditional,L037_nicobars
+129,NICOBARESE Central,cent1990,traditional,L037_nicobars
+130,NICOBARESE Chaura,chau1258,traditional,L037_nicobars
+131,NICOBARESE Southern,sout2689,traditional,L037_nicobars
+132,ONGE,onge1236,traditional,L037_nicobars
+133,SHOM PENG,shom1245,traditional,L037_nicobars
+134,MALAGASY Antaimoro,anta1259,traditional,L038_madagascar
+135,MALAGASY Antaisaka,anta1261,traditional,L038_madagascar
+136,MALAGASY Antambahoaka,anta1260,traditional,L038_madagascar
+137,MALAGASY Antardroy 1,tand1256,traditional,L038_madagascar
+138,MALAGASY Antardroy 2,tand1256,traditional,L038_madagascar
+139,MALAGASY Bara,bara1369,traditional,L038_madagascar
+140,MALAGASY Betsileo 1,bets1235,traditional,L038_madagascar
+141,MALAGASY Betsileo 2,bets1235,traditional,L038_madagascar
+142,MALAGASY Betsimaraka,sout2920,traditional,L038_madagascar
+143,MALAGASY Maharaly,maha1309,traditional,L038_madagascar
+144,MALAGASY Merina,meri1243,traditional,L038_madagascar
+145,MALAGASY Sakalava,saka1291,traditional,L038_madagascar
+146,MALAGASY Sihanaka,siha1244,traditional,L038_madagascar
+147,MALAGASY Tankarana,anta1255,traditional,L038_madagascar
+148,MALAGASY Tsimihetry,tsim1257,traditional,L038_madagascar
+149,MALAGASY Vezo,vezo1235,traditional,L038_madagascar
+150,MALAGASY Zalisere,tesa1236,traditional,L038_madagascar
+151,ROTI Baä-Loleh Baä,baaa1237,traditional,L040b_roti
+152,ROTI Baä-Loleh Loleh,lole1239,traditional,L040b_roti
+153,ROTI Bilba-Diu-Lelenuk Bilba,nucl1537,traditional,L040b_roti
+154,ROTI Bilba-Diu-Lelenuk Diu,diuu1237,traditional,L040b_roti
+155,ROTI Bilba-Diu-Lelenuk Lelenuk,lele1271,traditional,L040b_roti
+156,ROTI Bokai,boka1251,traditional,L040b_roti
+157,ROTI Dengka-Lelain Dengka,deng1253,traditional,L040b_roti
+158,ROTI Dengka-Lelain Lelain,lela1245,traditional,L040b_roti
+159,ROTI Korbaffo,korb1237,traditional,L040b_roti
+160,ROTI Landu-Ringgou-Oepao Landu,land1257,traditional,L040b_roti
+161,ROTI Landu-Ringgou-Oepao Oepao,oepa1237,traditional,L040b_roti
+162,ROTI Landu-Ringgou-Oepao Ringgou,nucl1538,traditional,L040b_roti
+163,ROTI Oenale-Delha Delha,dela1252,traditional,L040b_roti
+164,ROTI Oenale-Delha Oenale,oena1237,traditional,L040b_roti
+165,ROTI Termanu-Talae-Keka Keka,keka1234,traditional,L040b_roti
+166,ROTI Termanu-Talae-Keka Talae,tala1297,traditional,L040b_roti
+167,ROTI Termanu-Talae-Keka Termanu,term1237,traditional,L040b_roti
+168,ROTI Thie,tiii1241,traditional,L040b_roti
+169,SANGIR Central Tabukang,sang1336,traditional,L043_talaud
+170,SANGIR Kandar,sang1336,traditional,L043_talaud
+171,SANGIR Manganitu,mang1409,traditional,L043_talaud
+172,SANGIR North Tabukang,nort2872,traditional,L043_talaud
+173,SANGIR Siau,siau1244,traditional,L043_talaud
+174,SANGIR South Tabukang,sout2900,traditional,L043_talaud
+175,SANGIR Tagulandang,sang1336,traditional,L043_talaud
+176,SANGIR Tamako,tama1333,traditional,L043_talaud
+177,SANGIR Taruna,sang1336,traditional,L043_talaud
+178,TALAUD Arangka'a,aran1264,traditional,L043_talaud
+179,TALAUD Awit,awit1237,traditional,L043_talaud
+180,TALAUD Beo,beoo1241,traditional,L043_talaud
+181,TALAUD Dapalan,dapa1237,traditional,L043_talaud
+182,TALAUD Essang,essa1237,traditional,L043_talaud
+183,TALAUD Kaburuang,kabu1255,traditional,L043_talaud
+184,TALAUD Lirang,lira1237,traditional,L043_talaud
+185,TALAUD South Karakalang,sout2902,traditional,L043_talaud
+186,BAJO,,traditional,L044_flores_sea
+187,BONERATE,bone1254,traditional,L044_flores_sea
+188,KALAOTOA,kala1394,traditional,L044_flores_sea
+189,LAYOLO,laiy1246,traditional,L044_flores_sea
+190,MAKASSARESE Salayar,sela1260,traditional,L044_flores_sea
+191,AMBELAU,ambe1248,traditional,L045a_buru
+192,BURU,buru1303,traditional,L045a_buru
+193,BUTON,buto1237,traditional,L045a_buru
+194,KAYELI,kaye1241,traditional,L045a_buru
+195,KEI,keii1239,traditional,L045a_buru
+196,SULA,sula1248,traditional,L045a_buru
+197,SULA and BUTON,,traditional,L045a_buru
+198,SULA and BUTON and BUGIS,,traditional,L045a_buru
+199,SULA Face,face1237,traditional,L045a_sula
+200,SULA Fagudu,fagu1237,traditional,L045a_sula
+201,SULA Falahu,fala1244,traditional,L045a_sula
+202,SULA Mangoli,mang1408,traditional,L045a_sula
+203,SULA Mixed Sula,sula1248,traditional,L045a_sula
+204,TALIABO Kadai,kada1286,traditional,L045a_sula
+205,TALIABO Mange,mang1407,traditional,L045a_sula
+206,TALIABO Mantarara,tali1262,traditional,L045a_sula
+207,TALIABO Other Taliabo Dialects,tali1262,traditional,L045a_sula
+208,Banda Malay,band1353,traditional,L045b_banda
+209,TEOR-KUR Tior,teor1240,traditional,L045b_watubela
+210,WATUBELA,watu1247,traditional,L045b_watubela
