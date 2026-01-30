@@ -36,7 +36,7 @@ araw1271,Nuclear Arawe,,,,araw1271,,L013_fix_196,dialect,Austronesian,dialects
 arif1240,Arifama,,,,arif1240,,2603,dialect,Austronesian,dialects
 arig1248,Arigibi,,,,arig1248,,2231,dialect,Kiwaian,dialects
 arom1238,Aroma,,,,arom1238,,2502,dialect,Austronesian,dialects
-arop1244,Arop,,,,arop1244,,L007_fix_68,dialect,Austronesian,dialects
+arop1244,Arop (Poonoo),,,,arop1244,,L007_fix_68,dialect,Austronesian,dialects
 asap1239,Asapa,,,,asap1239,,2628,dialect,Koiarian,dialects
 asas1240,Asas,,-5.69345,145.549,asas1240,,2887,dialect,Nuclear Trans New Guinea,dialects
 asat1235,Asat,,,,asat1235,,2416,dialect,Nuclear Trans New Guinea,dialects
@@ -545,6 +545,7 @@ nort2926,North Waibuk,,,,nort2926,,2945,dialect,Piawi,dialects
 nort2932,North Awin,,,,nort2932,,2193,dialect,Kamula-Elevala,dialects
 nort3397,North Baliem Dani,,,,nort3397,,1887,dialect,Nuclear Trans New Guinea,dialects
 nort3427,Northern Atayal,,,,nort3427,,44,dialect,Austronesian,dialects
+nort3436,Northern Wipi,,,,nort3436,,L012_fix_165 L012_fix_166 L012_fix_167 L012_fix_168,dialect,Eastern Trans-Fly,dialects
 nucl1289,Tai Loi,,,,nucl1289,,470,dialect,Austroasiatic,dialects
 nucl1294,Nuclear Jehai,,,,nucl1294,,965,dialect,Austroasiatic,dialects
 nucl1328,Wambaya,,,,nucl1328,,3332,dialect,Mirndi,dialects
@@ -747,6 +748,7 @@ sout2945,South Modole,,,,sout2945,,1904,dialect,North Halmahera,dialects
 sout2946,South Waibuk,,,,sout2946,,2943,dialect,Piawi,dialects
 sout2950,Southern Coast Kiwai,,,,sout2950,,L012_fix_179,dialect,Kiwaian,dialects
 sout2952,South Awin,,,,sout2952,,2194,dialect,Kamula-Elevala,dialects
+sout3430,Southern Wipi,,,,sout3430,,L012_fix_164 L012_fix_182 L012_fix_183 L012_fix_184 L012_fix_185,dialect,Eastern Trans-Fly,dialects
 sqol1237,Squliq,,,,sqol1237,,44,dialect,Austronesian,dialects
 suii1244,Sui (Papua New Guinea),,,,suii1244,,3671,dialect,Kol (Papua New Guinea),dialects
 sula1245,Sanana,,-2.30765,125.966,sula1245,,L045a_sula_882 L045a_sula_883 L045a_sula_884,dialect,Austronesian,dialects
@@ -1122,7 +1124,7 @@ bauz1241,Bauzi,,-2.44717,137.629,bauz1241,,3177,language,Geelvink Bay,languages
 baya1257,Bayali,,-23.72933,150.86616,baya1257,,3303,language,Pama-Nyungan,languages
 beam1240,Beami,,-6.14949,142.508,beam1240,,2213 2214 2215,language,Bosavi,languages
 bebe1252,Bebeli,,-5.63282,150.323,bebe1252,,3657,language,Austronesian,languages
-bedo1237,Bedoanas,,-2.74438,132.566,bedo1237,,L002_fix_2,language,Austronesian,languages
+bedo1237,Mbaruan,,-2.74438,132.566,bedo1237,,L002_fix_2,language,Austronesian,languages
 beli1258,Beli (Papua New Guinea),,-3.67881,142.34,beli1258,,2997,language,Nuclear Torricelli,languages
 bena1264,Benabena,,-6.09974,145.534,bena1264,,3556,language,Nuclear Trans New Guinea,languages
 beng1287,Benggoi,,-3.13924,130.091,beng1287,,4037,language,Austronesian,languages
@@ -1364,7 +1366,7 @@ engg1245,Enggano,,-5.38846,102.245,engg1245,,803,language,Austronesian,languages
 enre1239,Enrekang,,-3.53848,119.66,enre1239,,L043_fix_776,language,Austronesian,languages
 erav1244,Erave,,-6.55011,143.918,erav1244,,2263,language,Nuclear Trans New Guinea,languages
 eree1241,Ere,,-2.15569,147.083,eree1241,,L014_admiralty_212,language,Austronesian,languages
-erok1237,Erokwanas,,-2.83746,132.705,erok1237,,L002_fix_3,language,Austronesian,languages
+erok1237,Yarikman,,-2.83746,132.705,erok1237,,L002_fix_3,language,Austronesian,languages
 esee1247,Ese,,-9.09451,148.376,esee1247,,2623 2624 2625 2626 2631 2632 2633 2634 2674 2675 2676 2677,language,Koiarian,languages
 ewag1241,Ewage-Notu,,-8.68756,148.405,ewag1241,,2622 L008_fix_79 L008_fix_84,language,Nuclear Trans New Guinea,languages
 faga1239,Fagani,,-10.4479,161.662,faga1239,,L015_fix_262 L015_fix_263 L015_fix_264,language,Austronesian,languages
@@ -1622,7 +1624,7 @@ kaya1325,Kayan River Kayan,,1.78269,115.827,kaya1325,,1491 1492 1494 1496 1498,l
 kaya1328,Kayagar,,-6.37677,138.932,kaya1328,,2001,language,Kayagaric,languages
 kaye1241,Kayeli,,-3.39247,127.118,kaye1241,,L045a_buru_868,language,Austronesian,languages
 kayo1245,Kayong,,14.9227,108.447,kayo1245,,576,language,Austroasiatic,languages
-kayu1243,Kayupulau,,-2.54415,140.626,kayu1243,,L003_fix_45,language,Austronesian,languages
+kayu1243,Kayupulau,,-2.54455,140.72068,kayu1243,,L003_fix_45,language,Austronesian,languages
 kazu1245,Kazukuru,,-8.23886,157.687,kazu1245,,L015_fix_272,language,Austronesian,languages
 keap1239,Keapara,,-10.1342,147.95,keap1239,,2500 2501 2502 2504 2505 2509 2510 2511 2512,language,Austronesian,languages
 keda1252,Kedang,,-8.23039,123.77,keda1252,,712,language,Austronesian,languages
