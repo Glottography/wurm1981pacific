@@ -16,7 +16,11 @@
         {
             "rdf:about": "https://github.com/Glottography/wurm1981pacific",
             "rdf:type": "prov:Entity",
+<<<<<<< Updated upstream
             "dc:created": "v1.0",
+=======
+            "dc:created": "ce6e193",
+>>>>>>> Stashed changes
             "dc:title": "Repository"
         },
         {
@@ -214,7 +218,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "We list the individual features from the source dataset as contributions in order to preserve the original metadata and a point of reference for the aggregated shapes.",
-            "dc:extent": 3506,
+            "dc:extent": 3441,
             "tableSchema": {
                 "columns": [
                     {

@@ -1,7 +1,6 @@
 """
 fixes:
 
-
 - L018:
   - add island name to label for SONSOROLESE
   - a couple atolls are missing in particular for MARSHALLESE.
@@ -12,11 +11,14 @@ from ecai:
 
 3076 -> vani1248, YANIMO -> VANIMO
 """
+import json
 import pathlib
 import itertools
 import collections
 
 from shapely.geometry import Point, shape
+from shapely.ops import unary_union
+from cldfgeojson.geometry import fixed_geometry
 from clldutils.jsonlib import dump, load
 from csvw.dsv import UnicodeWriter, reader
 import pyglottography
@@ -92,9 +94,14 @@ class Dataset(pyglottography.Dataset):
     def from_ecai_props(self, d):
         props = {k: v for k, v in d['properties'].items()}
         props['id'] = d['id']
-        props['name'] = props.pop('LANGUAGE')
         props['glottocode'] = props.pop('cldf:languageReference', [])
         props['glottocode'] = None if not props['glottocode'] else props['glottocode'][0]
+        props['name'] = props.pop('LANGUAGE')
+        if props['name'] == 'Central TATMUL':
+            props['name'] = 'Central SAWOS'
+        if props['name'] == 'IDNE?':
+            props['name'] = 'Austronesian'
+            props['glottocode'] = 'aust1307'
         return props['id'], props
 
     def cmd_download(self, args):
@@ -109,6 +116,15 @@ class Dataset(pyglottography.Dataset):
         - etc/dataset_insets.geojson
         - etc/features_insets.csv
         """
+        mapped_areas, mid2name = {}, {}
+        with UnicodeWriter(self.etc_dir / 'maps.csv') as w:
+            w.writerow(['id', 'name', 'description'])
+            for mid, (name, extent) in self.get_map_info().items():
+                mid2name[mid] = name
+                w.writerow([mid, name, ''])
+                if extent:
+                    mapped_areas[name] = shape(extent)
+
         for p in self.raw_dir.glob('*_ecai.csv'):
             for row in reader(p, dicts=True):
                 OBSOLETE_FEATURES[row['id']] = None
@@ -131,20 +147,28 @@ class Dataset(pyglottography.Dataset):
                     features.append(f)
             else:
                 features.append(f)
+            # Compute map_name_full:
+            maps, geom = [], shape(f['geometry'])
+            for mid, area in mapped_areas.items():
+                if area.intersects(geom):
+                    maps.append(mid)
+
             fmd.append(dict(
                 id=fid,
                 name=props['name'],
                 glottocode=props['glottocode'],
                 year='traditional',
-                map_name_full='ecai'))
+                # FIXME: can we do better in terms of map names?
+                # Yes, requires intersecting features with cldf/atlas/Lxxx/mapped_area.geojson
+                # 43 maps + 38 fixes and cutouts.
+                # Get name/descriptions from old dataset contributions.csv
+                map_name_full='|'.join(maps)))
 
         def get_name(f):
             return f['properties'].get('name', f['properties'].get('LANGUAGE'))
 
         l, i = set(), 0
         for p in sorted(self.raw_dir.glob('L0*'), key=lambda p_: p_.name):
-            print(p)
-
             names = set()
             pp = p / '{}.geojson'.format(p.name)
             assert pp.exists(), str(pp)
@@ -163,21 +187,16 @@ class Dataset(pyglottography.Dataset):
                     ('name', name),
                     ('glottocode', known.get(name, '')),
                     ('year', 'traditional'),
-                    ('map_name_full', p.name),
+                    ('map_name_full', mid2name[p.name]),
                 ])
                 fmd.append(props)
-                coords = []
-                for f in shapes:
-                    if f['geometry']['type'] == 'Polygon':
-                        coords.append(f['geometry']['coordinates'])
-                    elif f['geometry']['type'] == 'MultiPolygon':
-                        coords.extend(f['geometry']['coordinates'])
-                    else:
-                        raise ValueError(f['geometry']['type'])
+                shapes = [shape(fixed_geometry(f)['geometry']) for f in shapes]
                 features.append(dict(
                     type='Feature',
                     properties=props,
-                    geometry=dict(type='MultiPolygon', coordinates=coords)))
+                    geometry=unary_union(shapes).__geo_interface__
+                    #geometry=dict(type='MultiPolygon', coordinates=coords)
+                    ))
             with UnicodeWriter(lgs) as w:
                 for name in sorted(names):
                     w.writerow([name, known.get(name, '')])
@@ -193,3 +212,27 @@ class Dataset(pyglottography.Dataset):
     #
     # FIXME: handle geo-referenced scans!
     #
+
+    def get_map_info(self):
+        #
+        # FIXME: write etc/maps.csv! Including the fixes and inset maps!
+        # - maps in cldf/contributions.csv
+        # - all L0* subdirs of raw/ -> check title.txt else "_fix" Corrections or "_add" Additions
+        #
+        maps = collections.OrderedDict()
+        for row in reader(self.raw_dir / 'cldf-datasets-languageatlasofthepacificarea-f85e505' / 'cldf' / 'contributions.csv', dicts=True):
+            if row['Type'] == 'leaf':
+                atlas_dir = self.raw_dir / 'cldf-datasets-languageatlasofthepacificarea-f85e505' / 'cldf' / 'atlas' / row['ID']
+                if atlas_dir.joinpath('mapped_area.geojson').exists():
+                    maps[row['ID']] = ('{}: {}'.format(row['ID'], row['Name']), load(atlas_dir.joinpath('mapped_area.geojson'))['geometry'])
+
+        for d in self.raw_dir.glob('L0*'):
+            title = d.joinpath('title.txt')
+            mid, op = d.name.split('_', 1)
+            if title.exists():
+                title = '{}: {}'.format(mid, title.read_text(encoding='utf8'))
+            else:
+                title = '{}: {}'.format(mid, 'Corrections' if op == 'fix' else 'Additions')
+            maps[d.name] = (title, None)
+
+        return maps

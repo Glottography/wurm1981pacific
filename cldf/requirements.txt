@@ -6,10 +6,20 @@ babel==2.16.0
 bibtexparser==2.0.0b7
 bs4==0.0.2
 certifi==2024.8.30
+<<<<<<< Updated upstream
 cldfbench==1.14.2
 cldfcatalog==1.5.1
 cldfgeojson==1.6.0
 cldfzenodo==2.1.1
+=======
+chardet==5.2.0
+cldfbench==1.14.1
+-e git+https://github.com/Glottography/asher2007world@e6ff92c618d17441adaf094c082ea10dfd0955a2#egg=cldfbench_asher2007world
+-e git+https://github.com/Glottography/bowern2021australia@949a9d09cbb53ec1e6837f1031d7aa3211d0f7c3#egg=cldfbench_bowern2021australia
+cldfcatalog==1.5.1
+-e git+https://github.com/cldf/cldfgeojson@a9e94cca4fda348d902ade8b8ebb088e8881bbed#egg=cldfgeojson
+cldfzenodo==2.1.2
+>>>>>>> Stashed changes
 click==8.1.7
 clldutils==3.22.2
 colorama==0.4.6
@@ -33,9 +43,15 @@ pluggy==1.6.0
 pybtex==0.24.0
 pycldf==1.39.0
 pycountry==24.6.1
+<<<<<<< Updated upstream
 pyglottography==1.1.1.dev0
 pyglottolog==3.13.0
 Pygments==2.19.2
+=======
+-e git+https://github.com/glottography/pyglottography@722463ecb3c5b46a9ed2d97cb1daf1fdf65cdf61#egg=pyglottography
+pyglottolog==3.14.0
+Pygments==2.18.0
+>>>>>>> Stashed changes
 pylatexenc==2.10
 pytest==9.0.2
 python-dateutil==2.9.0.post0

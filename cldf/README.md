@@ -13,7 +13,7 @@ property | value
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by-nc/4.0/
 [dc:spatial](http://purl.org/dc/terms/spatial) | westlimit=-180.0; southlimit=-54.8; eastlimit=180.0; northlimit=53.6
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/Glottography/wurm1981pacific
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/Glottography/wurm1981pacific/tree/1e9b1c3">Glottography/wurm1981pacific 1e9b1c3</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2">Glottolog v5.2</a></li><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/f85e505">cldf-datasets/languageatlasofthepacificarea v2.0-12-gf85e505</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/Glottography/wurm1981pacific/tree/ce6e193">Glottography/wurm1981pacific ce6e193</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2">Glottolog v5.2</a></li><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/f85e505">cldf-datasets/languageatlasofthepacificarea v2.0-12-gf85e505</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | wurm1981pacific
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -69,7 +69,7 @@ We list the individual features from the source dataset as contributions in orde
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 3506
+[dc:extent](http://purl.org/dc/terms/extent) | 3441
 
 
 ### Columns
