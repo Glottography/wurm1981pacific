@@ -16,18 +16,20 @@
         {
             "rdf:about": "https://github.com/Glottography/wurm1981pacific",
             "rdf:type": "prov:Entity",
-<<<<<<< Updated upstream
-            "dc:created": "v1.0",
-=======
-            "dc:created": "ce6e193",
->>>>>>> Stashed changes
+            "dc:created": "v1.0.1-1-g404b3dc",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.2.1-20-g8e82dff6e0",
+            "dc:created": "v5.2",
             "dc:title": "Glottolog"
+        },
+        {
+            "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
+            "rdf:type": "prov:Entity",
+            "dc:created": "v2.0-12-gf85e505",
+            "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -99,7 +101,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 2937,
+            "dc:extent": 2935,
             "tableSchema": {
                 "columns": [
                     {
