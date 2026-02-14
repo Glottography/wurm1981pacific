@@ -31,3 +31,14 @@ cldfbench geojson.validate cldf
 ```shell
 cldfbench geojson.glottolog_distance cldf --glottolog-version v5.2 --format tsv | csvformat -t | csvgrep -c Distance -r"^0\.?" -i | csvsort -c Distance | csvcut -c ID,Distance | csvformat -E | termgraph
 ```
+
+
+## Release
+
+Commit and push all changes.
+
+Run
+```
+cldfbench glottography.release cldfbench_wurm1981pacific.py vX.Y
+```
+and follow the instructions given in the output of the command.
